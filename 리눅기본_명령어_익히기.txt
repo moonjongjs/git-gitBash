@@ -291,6 +291,26 @@ $
 
 
 
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git add .
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git commit -m '수정'
+[master b2774ae] 수정
+ 2 files changed, 4 insertions(+), 277 deletions(-)
+ delete mode 100644 "\353\246\254\353\210\205\352\270\260\353\263\270 \353\252\205\354\226\264 \354\235\265\355\236\210\352\270\260.txt"
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git pull origin master
+From https://github.com/moonjongjs/work
+ * branch            master     -> FETCH_HEAD
+Auto-merging 리눅기본_명령어_익히기.txt
+Merge made by the 'recursive' strategy.
+ ...6\264_\354\235\265\355\236\210\352\270\260.txt" | 27 ++++++++++++++++++++++
+ 1 file changed, 27 insertions(+)
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$
 
 
 
