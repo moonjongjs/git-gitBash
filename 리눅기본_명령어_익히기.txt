@@ -411,9 +411,12 @@ hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
 $ git pull origin master
 
 
+깃허브 수정내용 있으면 
+git add .
+git commit -m '수정'
+git pull origin master
 
-
-
-
-=======
->>>>>>> ec10ee8ae13e132051c237e8b8dc3892250b46c4
+로컬장소 수정내용 있으면
+git add .
+git commit -m '수정'
+git push origin master
