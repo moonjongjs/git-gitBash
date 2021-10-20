@@ -265,34 +265,3 @@ drwxr-xr-x 1 User 197121    0 Feb  2 14:56 img/
 
 
 
-
-//////////////////////////////////////////////////////
-fetch
-
-hp@DESKTOP-63J9VR1 MINGW64 /d/git_work (master)
-$ git fetch origin master
-From https://github.com/moonjongjs/work      
- * branch            master     -> FETCH_HEAD
-
-
-
-hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
-$ git pull origin master
-From https://github.com/moonjongjs/work
- * branch            master     -> FETCH_HEAD
-Updating 137ccde..e95d187
-Fast-forward
- ...\252\205\354\226\264 \354\235\265\355\236\210\352\270\260.txt" | 8 +++++++-
- 1 file changed, 7 insertions(+), 1 deletion(-)
-
-hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
-$
-
-
-
-
-
-
-
-
-
