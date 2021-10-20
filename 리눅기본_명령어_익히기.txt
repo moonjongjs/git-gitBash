@@ -412,9 +412,9 @@ $ git pull origin master
 
 
 깃허브 수정내용 있으면 
-git add .
-git commit -m '수정'
-git pull origin master
+git fetch origin master  깃허브 수정내용 있으면 확인하고
+git pull origin master   깃허브 마스터에서 가져와서 로컬파일 병합
+
 
 로컬장소 수정내용 있으면
 git add .
