@@ -314,6 +314,100 @@ $
 
 
 
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git remote -v
+origin  https://github.com/moonjongjs/work.git (
+origin  https://github.com/moonjongjs/work.git (
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git fetch origin master
+From https://github.com/moonjongjs/work
+ * branch            master     -> FETCH_HEAD
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git pull
+There is no tracking information for the current
+Please specify which branch you want to merge wi
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git fetch origin master
+From https://github.com/moonjongjs/work      
+ * branch            master     -> FETCH_HEAD
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git fetch origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), p
+Unpacking objects: 100% (3/3), 894 bytes | 68.00
+From https://github.com/moonjongjs/work
+ * branch            master     -> FETCH_HEAD   
+   e95d187..697e32c  master     -> origin/master
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git pull origin master
+From https://github.com/moonjongjs/work
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git fetch origin master
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 3), reused 0 (delta 0), pack-reused 0        
+
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git add .
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git commit -m '수정'
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git fetch origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0        
+Unpacking objects: 100% (3/3), 701 bytes | 35.00 KiB/s, done.
+From https://github.com/moonjongjs/work
+ * branch            master     -> FETCH_HEAD   
+   2e3bde3..ec10ee8  master     -> origin/master
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git pull origin master
+From https://github.com/moonjongjs/work      
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+        리눅기본_명령어_익히기.txt
+Please commit your changes or stash them before you merge.
+Aborting
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git commit -m '최종 수정 10월 21일'
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)        
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   "\353\246\254\353\210\205\352\270\260\353\263\270_\353\252\205\353\240\271\354\226\264_\354\235\265\355\236\210\352\270\260.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")   
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git add .
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git commit -m '최종수정 10월 21일'
+[master 5b1e233] 최종수정 10월 21일
+ 1 file changed, 20 insertions(+)
+
+hp@DESKTOP-63J9VR1 MINGW64 /d/work (master)
+$ git pull origin master
 
 
 
