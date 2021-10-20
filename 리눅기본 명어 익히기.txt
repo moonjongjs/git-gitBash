@@ -1,5 +1,6 @@
 Git Bash CLI(리눅스) Git 사용 설정과  기본 명령어 익히기
 
+
 github.com/ 접속 로그인 먼저 한다.  
 
 
@@ -7,7 +8,6 @@ github.com/ 접속 로그인 먼저 한다.
 탐색창에서 폴더 위치 복사 붙이기 
 
 D:\국기과정_문선종\교육산출물\01/02_01
-
 
 
 ///////////////////////////////////////////////
@@ -264,7 +264,13 @@ drwxr-xr-x 1 User 197121    0 Feb  2 14:56 img/
 
 
 
+//////////////////////////////////////////////////////
+fetch
 
+hp@DESKTOP-63J9VR1 MINGW64 /d/git_work (master)
+$ git fetch origin master
+From https://github.com/moonjongjs/work      
+ * branch            master     -> FETCH_HEAD
 
 
 
